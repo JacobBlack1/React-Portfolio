@@ -1,0 +1,52 @@
+/* header styling */
+header {
+    padding: 35px 35px 20px 0px;
+    background: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid var(--quaternary-color);
+    z-index: 999;
+}
+
+header h1 {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    font-size: 40px;
+    padding: 5px 50px;
+    font-family: var(--font-primary);
+    border-radius: 0 25px 25px 0;
+}
+
+header nav {
+    margin: 15px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 5px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    padding: 5px 15px;
+    font-family: var(--font-secondary);
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 15px;
+}
+
+header nav ul li a:hover {
+    background: var(--primary-color);
+    border-radius: 15px;
+    transition: 0.5s;
+}

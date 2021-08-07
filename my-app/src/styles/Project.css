@@ -1,0 +1,15 @@
+  .cd-one {
+    background-image: url("../images/password.png");
+    position: relative;
+  }
+  .cd-two {
+    background-image: url("../images/codeQuiz.jpg");
+    position: relative;}
+  .cd-three {
+    background-image: url("/images/marvel.png");
+    position: relative;
+  }
+  .cd-four {
+    background-image: url("../images/Stockimage.jpg");
+    position: relative;
+  }
